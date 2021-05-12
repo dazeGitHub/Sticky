@@ -71,7 +71,7 @@ artifacts {
 ext {
     siteUrl = 'https://github.com/metouch/Sticky'
     gitUrl = 'https://github.com/metouch/Sticky.git'
-    currentVersion = '1.0.0'
+    currentVersion = '1.0.1'
     groupId = 'lib.sticky'
     artifactId = 'sticky'
     desc = 'a ceiling widget'

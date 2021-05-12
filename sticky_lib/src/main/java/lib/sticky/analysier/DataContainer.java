@@ -234,4 +234,14 @@ public class DataContainer<T extends IWord2Spell> {
         return indexSet;
     }
 
+    public void clear() {
+        indexSet.clear();
+        decorationSet.clear();
+
+        indexOffset = 0;
+        headDecorationCount = 0;
+        headIndexCount = 0;
+        middleDecorationCount = 0;
+        middleIndexCount = 0;
+    }
 }

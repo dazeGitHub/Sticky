@@ -52,6 +52,12 @@ public abstract class HeaderAdapter<T extends IWord2Spell> extends RecyclerView.
         container.addHeaderData(word, index);
     }
 
+    public void removeHeadView(){
+        headers.clear();
+        headerStart = Integer.MIN_VALUE;
+        container.clear();
+    }
+
     @Override
     public int getItemCount() {
         return mSet.size();
